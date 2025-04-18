@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
 
 const startServer = async () => {
   app.listen(8080, () =>
-    cosole.log("server has started on port http://localhost:8080")
+    console.log("server has started on port http://localhost:8080")
   );
 };
 
